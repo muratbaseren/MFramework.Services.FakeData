@@ -38,5 +38,26 @@
             string[] strArrays = new string[] { "Smith", "Jones", "Taylor", "Williams", "Brown", "Davies", "Evans", "Riddick", "Wilson", "Thomas", "Roberts", "Johnson", "Lewis", "Walker", "Robinson", "Wood", "Thompson", "White", "Watson", "Jackson", "Wright", "Green", "Harris", "Thorne", "Wyatt", "Power", "Leach", "Lord", "Nelson", "Hilton", "Adam", "Mcgregor", "Mclean", "Walters", "Jennings", "Lindsay", "Nash", "Hancock", "Hooper", "Carroll", "Silva", "Chadwick", "Abbott", "Stuart", "Mellor", "Seymour", "Boyd", "Perkins", "Dale", "Mann", "Mac", "Haines", "Whelan", "Peters", "Obrien", "Savage", "Barlow", "Sanders", "Mohamed", "Kenny", "Baldwin", "Mcgrath", "Thornton", "Joyce", "Blair", "Whitehouse", "Weaver", "Shepherd", "Whitehead", "Little", "Cullen", "Burrows", "Mcfarlane", "Sinclair", "Swift", "Fleming", "Buckley", "Welch", "Vaughan", "Bradshaw", "Naylor", "Summers", "Briggs", "Schofield", "Osborne", "Coles", "Akhtar", "Cassidy", "Rossi", "Giles", "Whittaker" };
             return ArrayData.GetElement<string>(strArrays);
         }
+
+        public static string GetDepartmentName()
+        {
+            string[] strArrays = new string[] { "Yönetim", "Üretim", "Sekreterya", "Bilgi İşlem", "Ar-Ge", "Pazarlama", "Kurumsal İletişim", "Danışma", "Reklam", "Müşteri Hizmetleri", "Kalite Kontrol", "Satın Alma", "Faturalandırma", "Kargo", "Lojistik", "İnsan Kaynakları", "İdari İşler", "Güvenlik", "Eğitim ve Geliştirme", "Sosyal Hizmetler", "Hukuk" };
+
+            return ArrayData.GetElement(strArrays);
+        }
+
+        public static string GetTitleName()
+        {
+            string[] strArrays = new string[] { "Yazılım Uzmanı", "Satış Danışmanı", "Muhasebe Elemanı", "Sorumlu Yönetici", "Satış Temsilcisi", "Mağaza Müdürü", "Sekreter", "Yönetici Asistanı", "Müşteri Temsilcisi", "Muhasebe Uzmanı", "Ön Muhasebe Elemanı", "Makine Mühendisi", "Stajyer", "Depo Elemanı", "İnsan Kaynakları Uzmanı", "Yazılım Geliştirme Uzmanı", "Güvenlik Görevlisi", "Pazarlama Asistanı", "Müşteri Hizmetleri Sorumlusu", "Yetkili", "Lojistik Müdürü", "Sigorta Uzmanı", "Satış Direktörü", "Bilgi Sistemleri Uzmanı", "Satınalma Personeli", "Fiyatlandırma Uzmanı", "Planlama Müdürü", "Koordinatör", "Saha Müdürü", "Güvenlik Müdürü", "Departman Müdürü", "İş Geliştirme Sorumlusu", "Kalite Operatörü" };
+
+            return ArrayData.GetElement(strArrays);
+        }
+
+        public static string GetBankName()
+        {
+            string[] strArrays = new string[] { "Yapı Kredi Bankası", "İş Bankası", "Garanti Bankası", "Akbank", "Finansbank", "Ziraat Bankası", "Aktif Bank", "Kuveyt Türk", "Vakıfbank", "Halk Bankası", "Albaraka Türk" };
+
+            return ArrayData.GetElement(strArrays);
+        }
     }
 }

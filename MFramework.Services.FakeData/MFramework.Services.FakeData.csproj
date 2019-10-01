@@ -11,7 +11,6 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>fake data</PackageTags>
     <PackageIconUrl>https://github.com/muratbaseren/MFramework.Services.FakeData/blob/master/assets/fakedata-icon.png?raw=true</PackageIconUrl>
-    <Version>1.0.8</Version>
     <AppxAutoIncrementPackageRevision>true</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
 

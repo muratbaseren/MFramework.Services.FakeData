@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>K. Murat Başeren</Authors>
+    <Copyright>K. Murat Başeren</Copyright>
+    <Description>Generates fake data.</Description>
+    <PackageProjectUrl>https://github.com/muratbaseren/MFramework.Services.FakeData</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muratbaseren/MFramework.Services.FakeData</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>fake data</PackageTags>
+    <PackageIconUrl>https://github.com/muratbaseren/MFramework.Services.FakeData/blob/master/assets/fakedata-icon.png?raw=true</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>

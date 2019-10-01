@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MFramework.Services.FakeData</id>
+    <version>$version$</version>
+    <title>MFramework.Services.FakeData</title>
+    <authors>K. Murat Başeren</authors>
+    <owners>K. Murat Başeren</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/muratbaseren/MFramework.Services.FakeData</projectUrl>
+    <iconUrl>https://github.com/muratbaseren/MFramework.Services.FakeData/blob/master/assets/fakedata-icon.png?raw=true</iconUrl>
+    <repository type="git" url="https://github.com/muratbaseren/MFramework.Services.FakeData.git" branch="master" />
+    <description>Fake data generator.</description>
+    <summary>Fake data generator.</summary>
+    <tags>fake data,faker,dummy data,sample data,generator</tags>
+  </metadata>
+  <files>
+    <file src="lib\netstandard2.0\MFramework.Services.FakeData.dll" target="lib\netstandard2.0\MFramework.Services.FakeData.dll" />
+  </files>
+</package>

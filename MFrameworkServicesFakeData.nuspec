@@ -6,13 +6,14 @@
     <title>MFramework.Services.FakeData</title>
     <authors>K. Murat Başeren</authors>
     <owners>K. Murat Başeren</owners>
+    <copyright>K. Murat Başeren</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/muratbaseren/MFramework.Services.FakeData</projectUrl>
     <iconUrl>https://github.com/muratbaseren/MFramework.Services.FakeData/blob/master/assets/fakedata-icon.png?raw=true</iconUrl>
     <repository type="git" url="https://github.com/muratbaseren/MFramework.Services.FakeData.git" branch="master" />
-    <description>Fake data generator.</description>
-    <summary>Fake data generator.</summary>
-    <tags>fake data,faker,dummy data,sample data,generator</tags>
+    <description>Fake data generator for .net standart and core.</description>
+    <summary>Fake data generator for .net standart and core.</summary>
+    <tags>fake data,faker,dummy data,sample data,generator,dotnet core, dotnet standart</tags>
   </metadata>
   <files>
     <file src="MFramework.Services.FakeData\bin\release\netstandard2.0\MFramework.Services.FakeData.dll" target="lib\netstandard2.0\MFramework.Services.FakeData.dll" />

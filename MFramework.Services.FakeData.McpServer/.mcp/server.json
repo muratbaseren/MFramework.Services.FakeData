@@ -1,0 +1,21 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
+  "description": "A fake data generation MCP server using the MCP C# SDK.",
+  "name": "io.github.muratbaseren/MFramework.Services.FakeData",
+  "packages": [
+    {
+      "registry_name": "nuget",
+      "name": "MFramework.Services.FakeData.MCPServer",
+      "version": "0.2.0",
+      "package_arguments": [],
+      "environment_variables": []
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/muratbaseren/MFramework.Services.FakeData",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.2.0"
+  }
+}

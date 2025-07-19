@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "MFramework.Services.FakeData.McpServer": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "D:\\repos\\muratbaseren\\MFramework.Services.FakeData\\MFramework.Services.FakeData.McpServer"
+      ]
+    }
+  }
+}

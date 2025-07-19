@@ -6,7 +6,7 @@
     {
       "registry_name": "nuget",
       "name": "MFramework.Services.FakeData.MCPServer",
-      "version": "0.2.0",
+      "version": "1.0.0",
       "package_arguments": [],
       "environment_variables": []
     }
@@ -16,6 +16,6 @@
     "source": "github"
   },
   "version_detail": {
-    "version": "0.2.0"
+    "version": "1.0.0"
   }
 }
